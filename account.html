@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Acount</title>
+</head>
+<body>
+<script>
+function checkAcount(str) {
+    var regexp = /^[_0-9a-z]{6,}$/;
+    if (regexp.test(str)) {
+        return true;
+    }return false;
+}
+var acount = 'ads_346';
+console.log(checkAcount(acount));
+</script>
+</body>
+</html>
